@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns:ap="http://www.w3.org/2001/XMLSchema" >
+
+<ap:element name="note">
+
+<ap:complexType>
+  <ap:sequence>
+    <ap:element name="to" type="ap:string"/>
+    <ap:element name="from" type="ap:string"/>
+    <ap:element name="heading" type="ap:string"/>
+    <ap:element name="body" type="ap:string"/>
+  </ap:sequence>
+</ap:complexType>
+
+</ap:element> 
+</schema>

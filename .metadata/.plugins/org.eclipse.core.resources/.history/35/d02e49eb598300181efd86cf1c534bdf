@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu xmlns:at="http://www.w3.org/2001/XMLSchema-instance" 
+	at:noNamespaceSchemaLocation="BrkfstMenu.xsd">
+<food>
+    <name>Belgian Waffles</name>
+    <foodtype> veg</foodtype>
+    <price>50</price>
+    <description> Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+    <calories>650</calories>
+    <orderdate>2018/07/05</orderdate>
+    <deliverystatus>true</deliverystatus>
+  
+</food>
+<food>
+    <name>Strawberry Belgian Waffles</name>
+    <foodtype> veg</foodtype>
+    <price>95</price>
+    <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+    <calories>900</calories>
+    <orderdate>2018/07/05</orderdate>
+    <deliverystatus>true</deliverystatus>
+</food>
+<food>
+    <name>Berry-Berry Belgian Waffles</name>
+    <foodtype> veg</foodtype>
+    <price>110</price>
+    <description> Belgian waffles covered with assorted fresh berries and whipped cream</description>
+    <calories>900</calories>
+    <orderdate>2018/07/05</orderdate>
+    <deliverystatus>true</deliverystatus>
+</food>
+<food>
+    <name>French Toast</name>
+    <foodtype> veg</foodtype>
+    <price>65</price>
+    <description>Thick slices made from our homemade sourdough bread</description>
+    <calories>600</calories>
+    <orderdate>2018/07/05</orderdate>
+    <deliverystatus>true</deliverystatus>
+</food>
+<food>
+    <name>Homestyle Breakfast</name>
+    <foodtype> veg</foodtype>
+    <price>80</price>
+    <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+    <calories>950</calories>
+    <orderdate>2018/07/05</orderdate>
+    <deliverystatus>true</deliverystatus>
+</food>
+</breakfast_menu>

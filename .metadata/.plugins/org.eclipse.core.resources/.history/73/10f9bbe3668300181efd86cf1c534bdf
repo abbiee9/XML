@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library xmlns:at="http://www.w3.org/2001/XMLSchema-instance" 
+	at:noNamespaceSchemaLocation="Library.xsd">
+<book>
+    <Title>Dead to the world</Title>
+    <Author>Charlaine harris</Author>
+    <Publisher>ABC publishing company</Publisher>
+    
+    <Cover cover_type="Hardbook"></Cover>
+    <Category cat_type="Horror"></Category>
+    <ISBN isbn_num="Z1"></ISBN>
+    <Rating rate_val="5"></Rating>
+    <Price>15</Price>
+    <Comments>A good book</Comments>
+  
+</book>
+
+</Library>

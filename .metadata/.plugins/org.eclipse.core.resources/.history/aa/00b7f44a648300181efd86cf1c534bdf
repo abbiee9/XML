@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ap:schema xmlns:ap="http://www.w3.org/2001/XMLSchema" >
+
+<ap:element name="book">
+	<ap:complexType>
+	  <ap:sequence>
+	    <ap:element name="Title" type="ap:string"/>
+	    <ap:element name="Author" type="ap:string"/>
+	    <ap:element name="Publisher" type="ap:string"/>
+	     <ap:element name="Cover" type="ap:string"/>
+	    <ap:element name="Category" type="ap:string"/>
+	    <ap:element name="ISBN" type="ap:string"/>
+	     <ap:element name="Rating" type="at:integer"/>
+	    <ap:element name="Price" type="at:integer"/>
+	    <ap:element name="Comments" type="ap:string"/> 
+	  </ap:sequence>
+	</ap:complexType>
+
+</ap:element> 
+
+<ap:element name="Library">
+	<ap:complexType>
+	  <ap:sequence>
+	   <ap:element ref="book" maxOccurs="20"></ap:element>
+	  </ap:sequence>
+	</ap:complexType>
+
+</ap:element> 
+
+</ap:schema>

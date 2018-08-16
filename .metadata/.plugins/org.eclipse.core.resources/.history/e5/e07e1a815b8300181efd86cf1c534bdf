@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ap:schema xmlns:ap="http://www.w3.org/2001/XMLSchema" >
+
+<ap:element name="food">
+	<ap:complexType>
+	  <ap:sequence>
+	    <ap:element name="name" type="ap:string"/>
+	    
+	    <ap:element name="foodtype">
+	    <ap:simpleType>
+	    <ap:restriction base="ap:string">
+	    <ap:pattern value="veg/non-veg"></ap:pattern>
+	    </ap:restriction>
+	    </ap:simpleType>
+	    </ap:element>
+	    
+	    <ap:element name="price" >
+	    <ap:simpleType>
+	    <ap:restriction base="ap:integer">
+	    <ap:minInclusive value="50"/>
+	    <ap:maxInclusive value="300"/>
+	    </ap:restriction>
+	    </ap:simpleType>
+	    </ap:element>
+	    
+	    <ap:element name="description" type="ap:string"/>
+	    <ap:element name="calories" type="ap:string"/>
+	    <ap:element name="orderdate" type="ap:date"/>
+	    <ap:element name="deliverystatus" type="ap:boolean"/>
+	  </ap:sequence>
+	</ap:complexType>
+
+</ap:element> 
+
+<ap:element name="breakfast_menu">
+	<ap:complexType>
+	  <ap:sequence>
+	   <ap:element ref="food" maxOccurs="20"></ap:element>
+	  </ap:sequence>
+	</ap:complexType>
+
+</ap:element> 
+
+</ap:schema>
